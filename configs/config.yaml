@@ -1,0 +1,11 @@
+train:
+  config_path: "./configs/train_config.yaml"
+  epochs: 10
+  batch_size: 8
+  num_workers: 8
+  dataset_path: "./test_imgs_cs"
+  out_dir: "./"
+val:
+  batch_size: 1
+test:
+  batch_size: 1 
